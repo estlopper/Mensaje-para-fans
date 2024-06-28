@@ -76,6 +76,11 @@ const loadModel = (sequelize, DataTypes) => {
       allowNull: false,
       type: DataTypes.DATE,
       defaultValue: new Date()
+    },
+    mensajeFans: {
+      allowNull: true,
+      type: DataTypes.STRING,
+      defaultValue: null
     }
   }, {
     sequelize,

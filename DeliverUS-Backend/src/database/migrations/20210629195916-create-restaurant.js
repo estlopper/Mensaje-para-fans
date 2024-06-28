@@ -66,6 +66,11 @@ module.exports = {
         type: Sequelize.DATE,
         defaultValue: new Date()
       },
+      mensajeFans: {
+        allowNull: true,
+        type: Sequelize.STRING,
+        defaultValue: null
+      },
       userId: {
         allowNull: false,
         type: Sequelize.INTEGER,
